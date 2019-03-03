@@ -172,7 +172,7 @@ color:#f15750;
   background: #edf4d3;
   color: #f15750;
   /*background: -webkit-gradient(linear, left top, left bottom, from(#f15750), color-stop(45%, rgba(247,165,63, 0.5)), to(white));*/
-  background: linear-gradient(to bottom, rgb(247, 165, 63), rgba(247, 165, 63, 0.9) 40%,white);
+  background: linear-gradient(to bottom, rgb(255, 220, 140), rgba(255, 220, 140, .5) 40%,white);
 }
 
 .about-section p {
