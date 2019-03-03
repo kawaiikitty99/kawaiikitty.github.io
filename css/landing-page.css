@@ -55,3 +55,16 @@
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 
+.gamepic {
+  min-width: 100%;
+}
+
+.gamepic .gamepic-item {
+  max-width: 18rem;
+}
+
+.gamepic .gamepic-item img {
+  max-width: 12rem;
+  -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
