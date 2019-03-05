@@ -198,6 +198,10 @@ span{
   margin-bottom: 5rem;
 }
 
+.gamepic-section{
+  background-color: white !important;; 
+}
+
 .gamepic-section p {
   margin-bottom: 5rem;
 }
