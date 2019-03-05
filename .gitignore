@@ -1,2 +1,6 @@
 node_modules
+<<<<<<< HEAD
 bowser components
+=======
+bower_components
+>>>>>>> 8bc705eddef74bd7dde6757af6f85ef54bad3446
