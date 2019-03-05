@@ -110,6 +110,7 @@
 span{
 color:#f15750;
 }
+
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
@@ -171,7 +172,6 @@ color:#f15750;
   padding-top: 10rem;
   background: #edf4d3;
   color: #f15750;
-  /*background: -webkit-gradient(linear, left top, left bottom, from(#f15750), color-stop(45%, rgba(247,165,63, 0.5)), to(white));*/
   background: linear-gradient(to bottom, rgb(255, 220, 140), rgba(255, 220, 140, .5) 40%,white);
 }
 
@@ -179,43 +179,120 @@ color:#f15750;
   margin-bottom: 5rem;
 }
 
-.projects-section {
-  padding: 10rem 0;
-  /*background-color:rgb(247, 165, 63) !important;*/
-  background-color: white  !important;;
+.punchline-section {
+  padding-top: 10rem;
+  background: white;
+  color: #f15750;
 }
 
-.extraInfo{
-  /*background-color:rgb(247, 165, 63) !important;
-  color: white;*/
+.punchline-section p {
+  margin-bottom: 5rem;
+}
+
+.gamepic {
+  min-width: 100%;
+}
+
+.gamepic .gamepic-item {
+  max-width: 18rem;
+}
+
+.gamepic .gamepic-item img {
+  max-width: 12rem;
+  -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.features-section{
   background-color: white !important;; 
   color: rgb(247, 165, 63) !important;
 }
 
-.projects-section .featured-text {
+.features-section p {
+  margin-bottom: 5rem;
+}
+
+.food-section {
+  padding: 10rem 0;
+  background-color: white  !important;;
+}
+
+.food-section .featured-text {
   padding: 2rem;
 }
 
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .food-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid rgb(247, 165, 63);
   }
 }
 
-.projects-section .project-text {
+.food-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  .food-section .project-text {
     padding: 5rem;
   }
-  .projects-section .project-text hr {
+  .food-section .project-text hr {
     border-color:rgb(247, 165, 63);
     border-width: .25rem;
     width: 30%;
+  }
+}
+
+.testimonials-section {
+  padding-top: 10rem;
+  background-color: white !important;; 
+  color: rgb(247, 165, 63) !important;
+}
+
+.testimonials-section p {
+  margin-bottom: 5rem;
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+section.cta {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("../img/bg4.png");
+  background-position: center;
+  background-size: cover;
+}
+
+section.cta .cta-content {
+  position: relative;
+  z-index: 1;
+}
+
+section.cta .cta-content h2 {
+  font-size: 50px;
+  max-width: 450px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  section.cta .cta-content h2 {
+    font-size: 80px;
   }
 }
 
