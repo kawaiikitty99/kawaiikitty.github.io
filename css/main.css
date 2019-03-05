@@ -198,8 +198,8 @@ span{
   margin-bottom: 5rem;
 }
 
-.gamepic {
-  min-width: 100%;
+.gamepic-section p {
+  margin-bottom: 5rem;
 }
 
 .gamepic .gamepic-item {
