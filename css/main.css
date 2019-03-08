@@ -168,7 +168,7 @@ span{
   background-color:#f15750 !important;
 }
 
-.downloadButton{
+.downloadButton, .portfolioButton{
   background-color:white;
   color: rgb(247, 165, 63);
 }
@@ -374,6 +374,12 @@ section.cta .cta-content h2 {
 
 .contact-section .social a:active {
   color: #fff;
+}
+
+.footer-section .card{
+  border-color: rgb(247, 165, 63) !important;
+  background-color: rgb(247, 165, 63) !important;
+  color:white;
 }
 
 a {
